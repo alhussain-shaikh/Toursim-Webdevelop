@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;800&family=Parisienne&family=Roboto&family=Teko:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
 
+
 /* Root element (aka html) */
 :root {
   box-sizing: border-box;
@@ -52,7 +53,11 @@ span {
   background: whitesmoke;
   font-weight: bold;
 } */
+/* Login Css*/
 
+/* Google Fonts - Poppins */
+
+/* Login Css*/
 body,
 html {
   overflow-x: hidden;
@@ -393,6 +398,10 @@ section {
 .events .ctn {
   margin-top: 30px;
 }
+
+
+
+
 
 /* explore */
 .explore {
