@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WANDERLUST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/Admin.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/LogoWanderlust.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/LogoWanderlust.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/LogoWanderlust.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <!-- Add Facebook SDK -->
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+</head>
+<body onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'>
+    <!--navbar-->
+    <nav class="navbar glass" style="height: 70px;">
+        <span><a href="#home" style="display:flex; align-items: center;"><img class="img2" src="./img/LogoWanderlust.png" width="40"
+            style="margin: -25px -10px -25px -20px"><h1 class="logo">&nbsp;WANDERLUST</h1></a></span>
+        <ul class="nav-links">
+            <li><a href="index.html" id="pri" class="active cir_border">Home</a></li>
+            <li><a href="tour_details.html"  id="sec" class="cir_border">Tours</a></li>
+            <li><a href="booking.html" id="hex" class="cir_border">Booking</a></li>
+            <li><a href="index.html#contribution" id="tri" class="cir_border">Explore</a></li>
+            <li><a href="index.html#about" id="quad" class="cir_border">Packages</a></li>
+            <li><a href="Login.html" id="quint" class="cir_border">Login</a></li>
+            <li><a href="index.html#contact" id="hex" class="cir_border">Contact</a></li>
+            <li><div>
+                <input type="checkbox" class="checkbox dark" id="checkbox">
+              <label for="checkbox" class="label">
+                <i class="fa fa-moon-o"></i>
+                <i class='fa fa-sun-o'></i>
+                <div class='ball'>
+              </label>
+            </div></li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="side-menu">
+        <div class="brand-name">
+            <h1>Admin Panel</h1>
+        </div>
+        <ul>
+            <li><img src="img/Admin/dashboard (2).png" alt="">&nbsp; <span>Dashboard</span> </li>
+            <li><img src="img/Admin/reading-book (1).png" alt="">&nbsp;<span>Bookings</span> </li>
+            <li><img src="img/Admin/teacher2.png" alt="">&nbsp;<span>Travel Agencys</span> </li>
+            <li><img src="img/Admin/school.png" alt="">&nbsp;<span>Gateways</span> </li>
+            <li><img src="img/Admin/payment.png" alt="">&nbsp;<span>Total Revenue</span> </li>
+            <li><img src="img/Admin/help-web-button.png" alt="">&nbsp; <span>Help</span></li>
+            <li><img src="img/Admin/settings.png" alt="">&nbsp;<span>Settings</span> </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="header">
+            <div class="nav">
+                <div class="search">
+                    <input type="text" placeholder="Search..">
+                    <button type="submit"><img src="img/Admin/search.png" alt=""></button>
+                </div>
+                <div class="user">
+                    <a href="#" class="btn">Add New</a>
+                    <img src="img/Admin/notifications.png" alt="">
+                    <div class="img-case">
+                        <img src="img/Admin/user.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <div class="card">
+                    <div class="box">
+                        <h1>2194</h1>
+                        <h3>Bookings</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="img/Admin/students.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>53</h1>
+                        <h3>Agencys</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="img/Admin/teachers.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>5</h1>
+                        <h3>Gateways</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="img/Admin/schools.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>350000</h1>
+                        <h3>Revenue</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="img/Admin/income.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="content-2">
+                <div class="recent-payments">
+                    <div class="title">
+                        <h2>Recent Payments</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>Gateway Name</th>
+                            <th>Amount</th>
+                            <th>Option</th>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center"> <br>  </td>
+                            <td style="text-align: center" >  <br></td>
+                            <td style="text-align: center"> <br> </td>
+                            <td style="text-align: center"><a href="#" class="btn"><br>  </a></td>
+                        </tr>
+                        <tr>
+                            <br>
+                            <td style="text-align: center"> Al-Hussain</td>
+                            <td style="text-align: center">Paytm</td>
+                            <td style="text-align: center">Rs 20000/-</td>
+                            <td style="text-align: center"><a href="#" class="btn">View</a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center">Akshay</td>
+                            <td style="text-align: center">PhonePe</td>
+                            <td style="text-align: center">Rs 15000/-</td>
+                            <td style="text-align: center"><a href="#" class="btn">View</a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center">Anish Bonde</td>
+                            <td style="text-align: center">Debit Card</td>
+                            <td style="text-align: center">Rs 14500/- </td>
+                            <td style="text-align: center"><a href="#" class="btn">View</a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center">Aakash Matkar</td>
+                            <td style="text-align: center">Gpay</td>
+                            <td style="text-align: center">Rs 12000/-</td>
+                            <td style="text-align: center"><a href="#" class="btn">View</a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center">Arpit </td>
+                            <td style="text-align: center">Credit Card</td>
+                            <td style="text-align: center">Rs 20000/-</td>
+                            <td style="text-align: center"><a href="#" class="btn">View</a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center">Rajeev </td>
+                            <td style="text-align: center" >Net Banking</td>
+                            <td style="text-align: center">Rs 30000/-</td>
+                            <td style="text-align: center"><a href="#" class="btn">View</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="new-students">
+                    <div class="title">
+                        <h2>New Agencys</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Profile</th>
+                            <th>Name</th>
+                            <th>option</th>
+                        </tr>
+                        <tr>
+                            <td><img src="img/Admin/user.png" alt=""></td>
+                            <td>Neeta Travels</td>
+                            <td><img src="img/Admin/info.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/Admin/user.png" alt=""></td>
+                            <td>Sunrise Hills</td>
+                            <td><img src="img/Admin/info.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/Admin/user.png" alt=""></td>
+                            <td>Hotel Taj</td>
+                            <td><img src="img/Admin/info.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/Admin/user.png" alt=""></td>
+                            <td>Aakash Travels</td>
+                            <td><img src="img/Admin/info.png" alt=""></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

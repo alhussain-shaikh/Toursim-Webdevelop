@@ -54,16 +54,42 @@
        <br>
        <br>
        <div class="container">
-        <nav >
-            <ul class="nav-links">
-                <li><a href="#" id="pri" class="active cir_border" style="color: black; border-color: darkred;">Tours</a></li>
-                <li><a href="#"  id="sec" class="cir_border" style="color: black">Hotels</a></li>
-                <li><a href="#" id="tri" class="cir_border" style="color: black">Flight</a></li>
-            </ul>    
+            <nav >
+                <ul class="nav-links">
+                    <li><a href="#" id="pri" class="active cir_border" style="color: black; border-color: darkred;">Tours</a></li>
+                    <li><a href="#"  id="sec" class="cir_border" style="color: black">Hotels</a></li>
+                    <li><a href="#" id="tri" class="cir_border" style="color: black">Flight</a></li>
+                </ul>    
+            
+            </nav>
         
-        </nav>
-    
+                <form>
+                    <label for="trip-type">Trip Type:</label>
+                    <input type="radio" id="round-trip" name="trip-type" value="round" checked>
+                    <label for="round-trip">Round Trip</label>
+                    <input type="radio" id="one-way" name="trip-type" value="one-way">
+                    <label for="one-way">One Way</label>
+        
+                    <label for="from">From:</label>
+                    <input type="text" id="from" name="from" required>
+        
+                    <label for="to">To:</label>
+                    <input type="text" id="to" name="to" required>
+        
+                    <label for="depart-date">Depart Date:</label>
+                    <input type="date" id="depart-date" name="depart-date" required>
+        
+                    <label for="return-date">Return Date:</label>
+                    <input type="date" id="return-date" name="return-date" disabled>
+        
+                    <button type="submit">Search</button>
+                </form>
+        
         </div>
+
+        
+
+    
 
         
     </section>
