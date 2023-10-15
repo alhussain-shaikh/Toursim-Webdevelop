@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Explore India Tourism</title> -->
+    <link rel="stylesheet" href="css/india.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WANDERLUST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="css/LoginStyle.css"> -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/LogoWanderlust.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/LogoWanderlust.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/LogoWanderlust.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+
+    <!--navbar-->
+
+    <body
+        onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'>
+        <!--navbar-->
+        <nav class="navbar glass" style="height: 70px;">
+            <span><a href="#home" style="display:flex; align-items: center;"><img class="img2"
+                        src="./img/LogoWanderlust.png" width="40" style="margin: -25px -10px -25px -20px">
+                    <h1 class="logo">&nbsp;WANDERLUST</h1>
+                </a></span>
+            <ul class="nav-links">
+                <li><a href="index.html" id="pri" class="active cir_border">Home</a></li>
+                <li><a href="tour_details.html" id="sec" class="cir_border">Tours</a></li>
+                <li><a href="booking.html" id="hex" class="cir_border">Booking</a></li>
+                <li><a href="index.html#explore" id="tri" class="cir_border">Explore</a></li>
+                <li><a href="index.html#about" id="quad" class="cir_border">Packages</a></li>
+                <li><a href="Login.html" id="quint" class="cir_border">Login</a></li>
+                <li><a href="index.html#contact" id="hex" class="cir_border">Contact</a></li>
+                <li>
+                    <div>
+                        <input type="checkbox" class="checkbox dark" id="checkbox">
+                        <label for="checkbox" class="label">
+                            <i class="fa fa-moon-o"></i>
+                            <i class='fa fa-sun-o'></i>
+                            <div class='ball'>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+            <img src="./img/menu-btn.png" alt="" class="menu-btn">
+        </nav>
+        <!--navbar-->
+        <header>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/france-carousel1.jpg" height="750px" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/france-carousel2.avif" height="750px" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/france-carousel3.avif" height="750px" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-text">
+                <h2 class="animated fadeInDown">Welcome to France</h2>
+                <p class="animated fadeInUp">Explore the Diverse Culture and Rich Heritage</p>
+            </div>
+        </header>
+
+
+
+        <!-- About Section -->
+        <div class="container">
+            <section id="about">
+                <div class="about-content">
+                    <h2>About France</h2>
+                    <p>
+                        France, officially known as the French Republic, is a country located in Western Europe. It is
+                        celebrated for its rich history, culture, and contributions to art and philosophy. France is
+                        renowned for its romantic ambiance, iconic landmarks, and diverse landscapes, which range from
+                        the picturesque vineyards of Bordeaux to the stunning French Riviera along the Mediterranean
+                        coast.
+                        <br>
+                        <br>
+
+                        The country has played a pivotal role in shaping global culture, known for its pivotal part in
+                        the Enlightenment era, producing great philosophers like Voltaire and Rousseau. France is famous
+                        for its world-class museums, with t <br>
+                        <br>
+
+                        French cuisine is considered one of the finest in the world, offering a delectable array of
+                        dishes, wines, and pastries. Paris, the capital, is often called the "City of Love" and is home
+                        to iconic landmarks like the Eiffel Tower, Notre-Dame Cathedral, and the fashionable
+                        Champs-Élysées.
+                        <br>
+                        <br>
+
+                        With its rich history, artistic treasures, exquisite cuisine, and a sophisticated sense of
+                        style, France continues to captivate travelers from around the globe, making it a top
+                        destination for those seeking a blend of culture, romance, and beauty.<br><br>
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Destinations Section -->
+        <!-- Destinations Section -->
+        <section id="destinations">
+            <h2 class="popular_destination">Popular Destinations</h2>
+
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/eiffel-tower.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Eiffel Tower</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">The
+                                Eiffel Tower, known as La Tour Eiffel in French, is one of the world's most iconic
+                                landmarks and a symbol of France. This wrought-iron lattice tower stands tall in the
+                                heart of Paris, on the Champ de Mars beside the Seine River. Built for the 1889
+                                Exposition Universelle (World's Fair), it was designed by engineer Gustave Eiffel and
+                                initially met with mixed public reactions.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/mont-saint.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mont Saint-Michel</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">Mont
+                                Saint-Michel is a stunning island commune located in Normandy, France. It is renowned
+                                for its mesmerizing medieval abbey, perched atop a rocky hill and surrounded by vast
+                                tidal flats. The abbey is a masterpiece of Gothic architecture and has been a place of
+                                pilgrimage and a UNESCO World Heritage site since 1979.
+
+
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/versaillies.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Palace of Versailles</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">The
+                                Palace of Versailles, also known as Château de Versailles, is one of the most iconic and
+                                opulent royal palaces in the world. Located in the city of Versailles, just outside
+                                Paris, France, the palace was originally a hunting lodge built by King Louis XIII in the
+                                17th century. However, it was transformed and expanded into a magnificent symbol of
+                                absolute monarchy under the reign of Louis XIV, known as the "Sun King."
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/loitre.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Loire Valley</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">The
+                                Loire Valley, located in central France, is a picturesque and historic region known for
+                                its stunning châteaux, lush vineyards, and scenic landscapes. Stretching along the Loire
+                                River, this area is often referred to as the "Garden of France" due to its fertile land
+                                and enchanting beauty.One of the Loire Valley's most prominent features is its
+                                collection of magnificent châteaux, which range from medieval fortresses to opulent
+                                Renaissance estates. These architectural marvels, including Château de Chambord and
+                                Château de Chenonceau, attract visitors from around the world, offering a glimpse into
+                                the grandeur and history of the region.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card " id="img1">
+                        <img src="./img/notre-dame.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Notre Dame Cathedral</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">
+                                The Notre-Dame Cathedral, often simply referred to as Notre-Dame, is one of the most
+                                iconic and historically significant landmarks in Paris, France, and indeed, the world.
+                                Located on the Île de la Cité in the heart of the city, this stunning Gothic cathedral
+                                has a history dating back almost 900 years.Construction of Notre-Dame began in the 12th
+                                century, and it took over 100 years to complete. The cathedral's architecture is
+                                renowned for its striking stained glass windows, intricate sculptures, and soaring
+                                spires. It is a masterpiece of French Gothic architecture and served as an inspiration
+                                for countless cathedrals and churches throughout Europe.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/nice.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nice</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">
+                                Nice, located on the French Riviera along the Mediterranean coast, is a charming and
+                                picturesque city in the south of France. Known for its stunning seafront Promenade des
+                                Anglais, Nice offers a delightful blend of history, culture, and natural beauty.
+                                The city's rich history is evident in its Old Town, known as "Vieux Nice," which
+                                features narrow, winding streets, colorful buildings, and vibrant markets. Nice has been
+                                a popular destination for artists and writers, including Henri Matisse, who found
+                                inspiration in its radiant light and landscapes.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2023 Explore France Tourism. All rights reserved.</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click', () => {
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+
+</html>

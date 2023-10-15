@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Explore India Tourism</title> -->
+    <link rel="stylesheet" href="css/india.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WANDERLUST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="css/LoginStyle.css"> -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/LogoWanderlust.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/LogoWanderlust.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/LogoWanderlust.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+
+    <!--navbar-->
+
+    <body
+        onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'>
+        <!--navbar-->
+        <nav class="navbar glass" style="height: 70px;">
+            <span><a href="#home" style="display:flex; align-items: center;"><img class="img2"
+                        src="./img/LogoWanderlust.png" width="40" style="margin: -25px -10px -25px -20px">
+                    <h1 class="logo">&nbsp;WANDERLUST</h1>
+                </a></span>
+            <ul class="nav-links">
+                <li><a href="index.html" id="pri" class="active cir_border">Home</a></li>
+                <li><a href="tour_details.html" id="sec" class="cir_border">Tours</a></li>
+                <li><a href="booking.html" id="hex" class="cir_border">Booking</a></li>
+                <li><a href="index.html#explore" id="tri" class="cir_border">Explore</a></li>
+                <li><a href="index.html#about" id="quad" class="cir_border">Packages</a></li>
+                <li><a href="Login.html" id="quint" class="cir_border">Login</a></li>
+                <li><a href="index.html#contact" id="hex" class="cir_border">Contact</a></li>
+                <li>
+                    <div>
+                        <input type="checkbox" class="checkbox dark" id="checkbox">
+                        <label for="checkbox" class="label">
+                            <i class="fa fa-moon-o"></i>
+                            <i class='fa fa-sun-o'></i>
+                            <div class='ball'>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+            <img src="./img/menu-btn.png" alt="" class="menu-btn">
+        </nav>
+        <!--navbar-->
+        <header>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/thailand-carousel1.avif" height="750px" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/thailand-carousel2.avif" height="750px" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/thailand-carousel3.avif" height="750px" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-text">
+                <h2 class="animated fadeInDown">Welcome to Thailand</h2>
+                <p class="animated fadeInUp">Explore the Diverse Culture and Rich Heritage</p>
+            </div>
+        </header>
+
+
+
+        <!-- About Section -->
+        <div class="container">
+            <section id="about">
+                <div class="about-content">
+                    <h2>About Thailand</h2>
+                    <p>
+                        Thailand, officially known as the Kingdom of Thailand, is a vibrant and diverse country located
+                        in Southeast Asia. It is celebrated for its stunning natural landscapes, rich cultural heritage,
+                        and warm hospitality. From the bustling streets of Bangkok to the tranquil beaches of Phuket,
+                        Thailand offers a wide range of experiences for travelers.
+                        <br>
+
+                        Thai culture is deeply rooted in Buddhism, with ornate temples and religious traditions playing
+                        a significant role in daily life. The country is famous for its beautiful temples, including Wat
+                        Pho and Wat Arun, as well as colorful festivals like Songkran, the Thai New Year.
+
+                        <br>
+                        <br>
+
+                        Thailand is renowned for its delectable cuisine, which includes dishes like Pad Thai, green
+                        curry, and Tom Yum soup. The street food culture is a vibrant part of everyday life, offering a
+                        taste of authentic Thai flavors.
+                        <br>
+                        <br>
+
+                        The country's natural beauty is equally enticing, with lush jungles, picturesque islands, and
+                        wildlife-rich national parks. Activities like elephant trekking, scuba diving, and exploring
+                        ancient ruins are just a few of the adventures awaiting visitors in Thailand, making it a top
+                        destination for those seeking a blend of culture, culinary delights, and natural splendor.
+                        <br><br>
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Destinations Section -->
+        <!-- Destinations Section -->
+        <section id="destinations">
+            <h2 class="popular_destination">Popular Destinations</h2>
+
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/bangok.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bangkok</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">
+                                Bangkok, the capital of Thailand, is a bustling metropolis renowned for its vibrant
+                                street life, rich culture, and historic landmarks. With a population of over 10 million,
+                                it is one of Southeast Asia's most populous and dynamic cities. Known as the "City of
+                                Angels" (Krung Thep in Thai), Bangkok offers a blend of ancient traditions and modernity
+                                that captivates visitors from around the world.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/sanctury-meuseum.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sanctuary of Truth Museum</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">The
+                                Sanctuary of Truth is an extraordinary museum and cultural attraction located in
+                                Pattaya, Thailand. It stands as a remarkable testament to traditional Thai craftsmanship
+                                and architectural heritage. The sanctuary is entirely constructed from intricately
+                                carved wood, featuring stunning motifs, sculptures, and religious themes that showcase
+                                the rich artistic and spiritual traditions of Thailand.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/koh-samui.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Koh Samui</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">Koh
+                                Samui, often simply referred to as Samui, is a tropical paradise island located in the
+                                Gulf of Thailand. It is one of the most popular destinations in the country and is known
+                                for its stunning natural beauty, pristine beaches, and vibrant nightlife.The island
+                                offers a diverse range of experiences, from relaxing on the powdery white sands of
+                                Chaweng Beach to exploring lush jungles and waterfalls in the interior. Samui's clear
+                                waters and coral reefs make it a fantastic spot for snorkeling and scuba diving.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/phi-phi.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Phi Phi Islands</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">The
+                                Phi Phi Islands, situated in the Andaman Sea off the coast of Thailand, are a
+                                world-famous tropical paradise. This island group, composed of Phi Phi Don and Phi Phi
+                                Leh, is renowned for its stunning natural beauty, including pristine beaches,
+                                crystal-clear waters, and towering limestone cliffs.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card " id="img1">
+                        <img src="./img/pattaya.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pattaya</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">
+                                Pattaya is a popular coastal city located in the Gulf of Thailand. It's known for its
+                                vibrant nightlife, beautiful beaches, and a wide range of entertainment options. The
+                                city is a major tourist destination and is situated just a couple of hours' drive from
+                                Bangkok, making it easily accessible for both local and international travelers.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/grand-palace.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">The Grand Palace</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">The
+                                Grand Palace is an iconic cultural and historical landmark located in the heart of
+                                Bangkok, Thailand. It is a majestic complex of ornate buildings and sacred temples that
+                                served as the official residence of the Thai monarchy for over 150 years. The palace is
+                                renowned for its intricate and exquisite architecture, adorned with dazzling gold and
+                                vibrant colors.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2023 Explore Thailand Tourism. All rights reserved.</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click', () => {
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+
+</html>

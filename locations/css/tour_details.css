@@ -1,0 +1,113 @@
+/* Tour details container */
+.tour-details-container {
+  margin-top: 6%;
+  margin-left: 1%;
+  margin-right: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.tour-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tour-info {
+  max-width: 600px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.book-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #ff69b4;
+  /* Pink button background */
+  color: #fff;
+  /* White text for buttons */
+  text-decoration: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.book-btn:hover {
+  background-color: #ff1493;
+  /* Darker pink on hover */
+}
+
+.packages-container {
+  display: flex;
+  overflow-x: auto;
+  /* Enable horizontal scrolling */
+  white-space: nowrap;
+  /* Keep the cards in a single line */
+  padding: 10px;
+  background-color: #f8f8f8;
+  /* Light gray background */
+}
+
+.package-card {
+  flex: 0 0 300px;
+  /* Set a fixed width for each card */
+  margin-right: 20px;
+  /* Add some margin between cards */
+  background-color: #fff;
+  /* White background for cards */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.package-details {
+  text-align: center;
+}
+
+.package-card img {
+  max-width: 100%;
+  height: 250px;
+  border-radius: 4px;
+}
+
+.package-card h3 {
+  margin-top: 10px;
+  color: #000;
+  /* Black text for package title */
+}
+
+.package-card p {
+  color: #555;
+  /* Gray text for package details */
+  margin-top: 5px;
+}
+
+.package-card .package-details ul {
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.package-card .package-details li {
+  color: #555;
+  /* Gray text for activity list */
+  list-style: none;
+  padding-left: 20px;
+  position: relative;
+  list-style: none;
+}
+
+.package-card li:before {
+  content: "\2022";
+  /* Bullet symbol */
+  position: absolute;
+  left: 0;
+}
+
+/* Hide the scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}

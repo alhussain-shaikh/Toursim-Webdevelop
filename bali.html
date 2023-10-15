@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Explore India Tourism</title> -->
+    <link rel="stylesheet" href="css/india.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WANDERLUST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="css/LoginStyle.css"> -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/LogoWanderlust.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/LogoWanderlust.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/LogoWanderlust.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+
+    <!--navbar-->
+
+    <body
+        onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'>
+        <!--navbar-->
+        <nav class="navbar glass" style="height: 70px;">
+            <span><a href="#home" style="display:flex; align-items: center;"><img class="img2"
+                        src="./img/LogoWanderlust.png" width="40" style="margin: -25px -10px -25px -20px">
+                    <h1 class="logo">&nbsp;WANDERLUST</h1>
+                </a></span>
+            <ul class="nav-links">
+                <li><a href="index.html" id="pri" class="active cir_border">Home</a></li>
+                <li><a href="tour_details.html" id="sec" class="cir_border">Tours</a></li>
+                <li><a href="booking.html" id="hex" class="cir_border">Booking</a></li>
+                <li><a href="index.html#explore" id="tri" class="cir_border">Explore</a></li>
+                <li><a href="index.html#about" id="quad" class="cir_border">Packages</a></li>
+                <li><a href="Login.html" id="quint" class="cir_border">Login</a></li>
+                <li><a href="index.html#contact" id="hex" class="cir_border">Contact</a></li>
+                <li>
+                    <div>
+                        <input type="checkbox" class="checkbox dark" id="checkbox">
+                        <label for="checkbox" class="label">
+                            <i class="fa fa-moon-o"></i>
+                            <i class='fa fa-sun-o'></i>
+                            <div class='ball'>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+            <img src="./img/menu-btn.png" alt="" class="menu-btn">
+        </nav>
+        <!--navbar-->
+        <header>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/indonesia-carousel1.avif" height="750px" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/indonesia-carousel2.avif" height="750px" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/indonesia-carousel3.avif height=" 750px" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-text">
+                <h2 class="animated fadeInDown">Welcome to Indonesia </h2>
+                <p class="animated fadeInUp">Explore the Diverse Culture and Rich Heritage</p>
+            </div>
+        </header>
+
+
+
+        <!-- About Section -->
+        <div class="container">
+            <section id="about">
+                <div class="about-content">
+                    <h2>About Indonesia</h2>
+                    <p>
+                        Indonesia, the world's largest archipelagic nation, is a captivating country located in
+                        Southeast Asia. Comprising over 17,000 islands, it is renowned for its diverse landscapes, rich
+                        cultural heritage, and vibrant biodiversity. From the tropical paradise of Bali to the lush
+                        rainforests of Sumatra, Indonesia offers a breathtaking array of natural beauty.
+                        <br>
+                        <br>
+
+                        The nation's cultural diversity is equally impressive, with hundreds of distinct ethnic groups
+                        and languages coexisting. The most widely spoken language is Bahasa Indonesia, serving as a
+                        unifying force in this mosaic of cultures. Indonesian culture is infused with traditional art
+                        forms, vibrant festivals, and a deep respect for local customs and traditions.
+
+                        <br>
+                        <br>
+                        Indonesia's economy is steadily growing, with tourism playing a significant role. Visitors flock
+                        to explore ancient temples like Borobudur and Prambanan, hike in volcanic landscapes, and
+                        experience the warm hospitality of the Indonesian people. The country's culinary scene is also
+                        celebrated, offering a wide range of flavors and dishes, with rendang, nasi goreng, and satay
+                        being some of the culinary highlights.
+
+
+                        <br>
+                        <br>
+                        Indonesia's natural wonders, cultural diversity, and warm hospitality make it a compelling
+                        destination for travelers seeking adventure, cultural exploration, and the chance to immerse
+                        themselves in one of the world's most captivating and biodiverse countries.<br><br>
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Destinations Section -->
+        <!-- Destinations Section -->
+        <section id="destinations">
+            <h2 class="popular_destination">Popular Destinations</h2>
+
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/jakarta.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Jakarta</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">
+                                Jakarta is the capital and largest city of Indonesia, located on the northwest coast of
+                                the island of Java. As the country's political, economic, and cultural center, Jakarta
+                                is a bustling metropolis with a dynamic mix of traditions and modernity. It's known for
+                                its towering skyscrapers, vibrant street life, and a rich tapestry of cultures from
+                                across the Indonesian archipelago.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/paula-bali.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pulau Bali</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">
+                                Pulau Bali, commonly referred to as Bali, is a picturesque island and one of the most
+                                popular tourist destinations in Indonesia. Located in Southeast Asia, Bali is celebrated
+                                for its stunning beaches, lush tropical landscapes, and rich cultural heritage. Visitors
+                                are drawn to its vibrant arts scene, tranquil temples, and the warm hospitality of the
+                                Balinese people.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/borubuduk-temple.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Borobudur Temple</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">
+                                Borobudur Temple, located in Central Java, Indonesia, is one of the most iconic and
+                                significant Buddhist monuments in the world. Built during the 9th century, it is a
+                                UNESCO World Heritage Site and a testament to ancient Javanese art and architecture.
+                                This massive temple complex is designed as a stepped pyramid with multiple levels
+                                adorned with intricate carvings and sculptures.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/java.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Java</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">Java
+                                is an island located in Southeast Asia, part of Indonesia, the world's largest
+                                archipelago. It's renowned for its diverse culture, lush landscapes, and historical
+                                significance. Java is the most populous island in Indonesia and home to several major
+                                cities, including Jakarta, the nation's capital.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card " id="img1">
+                        <img src="./img/lake-toba.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lake Toba</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">Lake
+                                Toba is a remarkable natural wonder located on the Indonesian island of Sumatra. It is
+                                the largest volcanic lake in the world and was formed from the eruption of a super
+                                volcano approximately 74,000 years ago. The lake is nestled within a vast crater and
+                                surrounded by lush forests and highland landscapes.
+                                action.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/gillis.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Gili Islands</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">The
+                                Gili Islands, often simply referred to as the Gilis, are a group of three small islands
+                                located just off the northwest coast of Lombok, Indonesia. These idyllic islands have
+                                become popular tourist destinations, known for their stunning beaches, crystal-clear
+                                waters, and relaxed atmosphere. Each of the three islands - Gili Trawangan, Gili Meno,
+                                and Gili Air - offers a unique experience for travelers.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2023 Explore Indonesia Tourism. All rights reserved.</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click', () => {
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+
+</html>

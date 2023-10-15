@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Explore India Tourism</title> -->
+    <link rel="stylesheet" href="css/india.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WANDERLUST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="css/LoginStyle.css"> -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/LogoWanderlust.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/LogoWanderlust.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/LogoWanderlust.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+
+    <!--navbar-->
+
+    <body
+        onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'>
+        <!--navbar-->
+        <nav class="navbar glass" style="height: 70px;">
+            <span><a href="#home" style="display:flex; align-items: center;"><img class="img2"
+                        src="./img/LogoWanderlust.png" width="40" style="margin: -25px -10px -25px -20px">
+                    <h1 class="logo">&nbsp;WANDERLUST</h1>
+                </a></span>
+            <ul class="nav-links">
+                <li><a href="index.html" id="pri" class="active cir_border">Home</a></li>
+                <li><a href="tour_details.html" id="sec" class="cir_border">Tours</a></li>
+                <li><a href="booking.html" id="hex" class="cir_border">Booking</a></li>
+                <li><a href="index.html#explore" id="tri" class="cir_border">Explore</a></li>
+                <li><a href="index.html#about" id="quad" class="cir_border">Packages</a></li>
+                <li><a href="Login.html" id="quint" class="cir_border">Login</a></li>
+                <li><a href="index.html#contact" id="hex" class="cir_border">Contact</a></li>
+                <li>
+                    <div>
+                        <input type="checkbox" class="checkbox dark" id="checkbox">
+                        <label for="checkbox" class="label">
+                            <i class="fa fa-moon-o"></i>
+                            <i class='fa fa-sun-o'></i>
+                            <div class='ball'>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+            <img src="./img/menu-btn.png" alt="" class="menu-btn">
+        </nav>
+        <!--navbar-->
+        <header>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/turkey-carousel1.avif" height="750px" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/turkey-carousel2.jpg" height="750px" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/turkey-carousel3.jpg" height="750px" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-text">
+                <h2 class="animated fadeInDown">Welcome to Turkey</h2>
+                <p class="animated fadeInUp">Explore the Diverse Culture and Rich Heritage</p>
+            </div>
+        </header>
+
+
+
+        <!-- About Section -->
+        <div class="container">
+            <section id="about">
+                <div class="about-content">
+                    <h2>About Turkey</h2>
+                    <p>
+                        Turkey, officially known as the Republic of Turkey, is a transcontinental country that bridges
+                        Europe and Asia, straddling both continents. With a unique blend of Eastern and Western
+                        influences, Turkey is a nation with a rich and diverse cultural heritage. Its largest city,
+                        Istanbul, is the only city in the world that spans two continents, providing a fascinating
+                        juxtaposition of ancient history and modern life along the Bosphorus Strait.
+                        <br>
+                        <br>
+
+                        Turkey's historical significance is vast, with a legacy that includes the Byzantine and Ottoman
+                        Empires. Istanbul, once known as Byzantium and Constantinople, was the capital of these empires,
+                        and it boasts remarkable landmarks such as the Hagia Sophia and the Topkapi Palace, now open to
+                        the public as museums.
+                        <br>
+                        <br>
+
+                        The country's natural beauty is equally striking, featuring a stunning Mediterranean coastline,
+                        the otherworldly landscapes of Cappadocia, and the soaring peaks of the Taurus Mountains.
+                        Turkish cuisine is celebrated globally, offering a delightful array of dishes, including kebabs,
+                        baklava, and Turkish delight. The warmth and hospitality of the Turkish people are renowned,
+                        making visitors feel at home in this captivating land where tradition and modernity coexist in
+                        harmony.
+                        <br>
+                        <br>
+
+                        Turkey is not only a geographical crossroads but also a cultural and historical crossroads,
+                        making it a must-visit destination for those seeking an enriching blend of ancient wonders,
+                        vibrant bazaars, and the enchanting call to prayer that echoes through its cities.<br><br>
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Destinations Section -->
+        <!-- Destinations Section -->
+        <section id="destinations">
+            <h2 class="popular_destination">Popular Destinations</h2>
+
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 main">
+                <div class="col cards  ">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/cappodica.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappadocia</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">
+                                Cappadocia is a captivating region located in central Turkey, celebrated for its unique
+                                and otherworldly landscapes. The area is renowned for its distinctive rock formations,
+                                ancient cave dwellings, and fairy chimneys, which were shaped by volcanic eruptions
+                                millions of years ago. Cappadocia is a UNESCO World Heritage site and a popular tourist
+                                destination.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/istanbul.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">İstanbul</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">
+                                Istanbul, historically known as Byzantium and Constantinople, is a city in Turkey that
+                                straddles two continents, Europe and Asia. It is the largest city in Turkey and one of
+                                the most populous cities in the world, with a rich and diverse history dating back
+                                thousands of years.
+                                The city is renowned for its iconic landmarks, including the Hagia Sophia, the Blue
+                                Mosque, and the Topkapi Palace, all of which reflect its rich Byzantine and Ottoman
+                                heritage. The historic Old City of Istanbul, a UNESCO World Heritage Site, offers a
+                                fascinating blend of ancient architecture and modern urban life.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/blue-mosque.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Blue Mosque</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">The
+                                Blue Mosque, also known as Sultan Ahmed Mosque, is one of Istanbul's most iconic
+                                landmarks and a masterpiece of Ottoman architecture. Located in the historic Sultanahmet
+                                district of Turkey, this mosque is celebrated for its stunning blue-tiled interior and
+                                impressive domes and minarets.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/fathiye.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Fethiye</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">
+                                Fethiye is a picturesque coastal town located on the southwest coast of Turkey, along
+                                the turquoise waters of the Mediterranean Sea. This charming destination is celebrated
+                                for its stunning natural beauty, historical sites, and a vibrant atmosphere that caters
+                                to tourists and travelers.
+                                action.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card " id="img1">
+                        <img src="./img/İzmir.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">İzmir</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">
+                                İzmir, often spelled as "Izmir," is a vibrant coastal city located in western Turkey. It
+                                is the country's third-largest city and serves as a significant cultural, economic, and
+                                transportation hub. Known for its beautiful Aegean Sea coastline, Izmir boasts a mild
+                                climate, making it a popular destination for both tourists and residents.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col cards">
+                    <div class="card h-100 custom-card">
+                        <img src="./img/Trabzon.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Trabzon</h5>
+                            <p class="card-text" style="max-height: 99px; overflow-y: auto; scrollbar-width: none;">
+                                Trabzon is a city located in northeastern Turkey, along the Black Sea coast. Known for
+                                its natural beauty, rich history, and cultural heritage, Trabzon is a popular
+                                destination for tourists seeking both coastal and mountainous experiences. The city is
+                                renowned for its stunning landscapes, with lush green hills, tea
+                                plantations, and breathtaking sea views. The Sumela Monastery, perched on a cliffside,
+                                is one of the region's iconic landmarks. Trabzon also offers access to the Eastern Black
+                                Sea's pristine beaches and waterfalls, making it a haven for nature enthusiasts.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2023 Explore Turkey Tourism. All rights reserved.</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click', () => {
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+
+</html>
