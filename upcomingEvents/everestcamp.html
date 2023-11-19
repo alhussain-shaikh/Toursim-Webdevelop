@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +14,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
 </head>
+
 <body>
-  
+
   <nav class="navbar glass" style="height: 70px;">
     <span><a href="#home" style="display:flex; align-items: center;"><img class="img2" src="./img/LogoWanderlust.png"
           width="40" style="margin: -25px -10px -25px -20px">
@@ -41,16 +43,25 @@
     </ul>
     <img src="./img/menu-btn.png" alt="" class="menu-btn">
   </nav>
-   <main>
+  <main>
     <div class="tour-details-container">
       <div class="tour-image">
         <img src="../img/img1.jfif" alt="Everest Camp Trek">
       </div>
       <div class="tour-info">
         <h1 class="dark">Everest Camp Trek</h1><br>
-        <p class="font-color"> Everest Base Camp trek is without a doubt, one of the most renowned travel destinations in the world, captivating adventurers and nature enthusiasts alike. Situated in the breathtaking Himalayas, this iconic trek offers an extraordinary opportunity to witness awe-inspiring vistas of snow-capped peaks, traverse ancient trails, and immerse yourself in the rich cultural heritage of the Sherpa community. </p><br>
-        <p class="font-color" style="text-indent: 80px;"> Embark on a once-in-a-lifetime journey as you trek through picturesque landscapes, passing through charming mountain villages, and reaching the iconic Everest Base Camp itself. This incredible adventure not only presents the opportunity to stand in the shadow of the world's highest peak, Mount Everest, but also to forge unforgettable memories and friendships with fellow trekkers from around the globe. Situated in the breathtaking Himalayas, this iconic trek offers an extraordinary opportunity to witness </p> <br>
-        <a href="https://mercury-uat.phonepe.com/transact/simulator?token=BwDguDaJUIWnnpQ00uXbTwK8B0GpEmtwj9Q1DejIPGi" class="book-btn">Book Now</a>
+        <p class="font-color"> Everest Base Camp trek is without a doubt, one of the most renowned travel destinations
+          in the world, captivating adventurers and nature enthusiasts alike. Situated in the breathtaking Himalayas,
+          this iconic trek offers an extraordinary opportunity to witness awe-inspiring vistas of snow-capped peaks,
+          traverse ancient trails, and immerse yourself in the rich cultural heritage of the Sherpa community. </p><br>
+        <p class="font-color" style="text-indent: 80px;"> Embark on a once-in-a-lifetime journey as you trek through
+          picturesque landscapes, passing through charming mountain villages, and reaching the iconic Everest Base Camp
+          itself. This incredible adventure not only presents the opportunity to stand in the shadow of the world's
+          highest peak, Mount Everest, but also to forge unforgettable memories and friendships with fellow trekkers
+          from around the globe. Situated in the breathtaking Himalayas, this iconic trek offers an extraordinary
+          opportunity to witness </p> <br>
+        <a href="https://mercury-uat.phonepe.com/transact/simulator?token=BwDguDaJUIWnnpQ00uXbTwK8B0GpEmtwj9Q1DejIPGi"
+          class="book-btn">Book Now</a>
         <!-- <a href="Payment.html" class="book-btn">Book Now</a> -->
       </div>
     </div>
@@ -59,39 +70,40 @@
       <h1 class="dark">Exciting Packages</h1>
       <div class="line"></div> <br>
     </div>
-     <div class="packages-container"></div>
-   </main>
+    <div class="packages-container"></div>
+  </main>
 
-   <br><br>
-   <footer>
-     <section class="footer">
-       <span>Created By A9 Group | &#169 2022 All rights reserved.</span>
-       <div class="social">
-         <li>
-           <a href="https://alhussain-shaikh.github.io/AlhussainPortfolio.github.io/" target="_blank" rel="noreferrer"><i
-               class="fa fa-globe"></i></a>
-           <a href="https://github.com/alhussain-shaikh" target="_blank" rel="noreferrer"><i
-               class="fa fa-github"></i></a>
-           <a href="https://www.linkedin.com/in/al-hussain-shaikh-033729231/" target="_blank" rel="noreferrer"><i
-               class="fa fa-linkedin-square"></i></a>
-         </li>
-       </div>
-     </section>
-   </footer>
+  <br><br>
+  <footer>
+    <section class="footer">
+      <span>Created By A9 Group | &#169 2022 All rights reserved.</span>
+      <div class="social">
+        <li>
+          <a href="https://alhussain-shaikh.github.io/AlhussainPortfolio.github.io/" target="_blank" rel="noreferrer"><i
+              class="fa fa-globe"></i></a>
+          <a href="https://github.com/alhussain-shaikh" target="_blank" rel="noreferrer"><i
+              class="fa fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/al-hussain-shaikh-033729231/" target="_blank" rel="noreferrer"><i
+              class="fa fa-linkedin-square"></i></a>
+        </li>
+      </div>
+    </section>
+  </footer>
   <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    fetch('../json/tour_details.json')
-      .then(response => response.json())
-      .then(data => {
-        console.log("data is-------------> ",data.tours);
-        renderPackages(data.tours[0])})
-      .catch(error => console.error('Error fetching data:', error));
-  });
-  
-  function renderPackages(tour) {
+    document.addEventListener("DOMContentLoaded", function () {
+      fetch('../json/tour_details.json')
+        .then(response => response.json())
+        .then(data => {
+          console.log("data is-------------> ", data.tours);
+          renderPackages(data.tours[0])
+        })
+        .catch(error => console.error('Error fetching data:', error));
+    });
+
+    function renderPackages(tour) {
       const container = document.querySelector('.packages-container');
       tour.packages.forEach(package => {
-        console.log("each tour is : ",package);
+        console.log("each tour is : ", package);
         const packageDiv = document.createElement('div');
         packageDiv.className = 'package-card';
 
@@ -132,7 +144,7 @@
       });
     }
   </script>
-   <script>
+  <script>
     const menuBtn = document.querySelector('.menu-btn')
     const navlinks = document.querySelector('.nav-links')
 
@@ -143,4 +155,5 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="js/script.js"></script>
 </body>
+
 </html>
