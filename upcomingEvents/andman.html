@@ -117,9 +117,10 @@
         });
 
         const a = document.createElement('a');
-        a.href = `https://mercury-uat.phonepe.com/transact/simulator?token=${package.price}`;
+        a.href = `bookingComponent.html?data=${package.price}`;
         a.className = 'book-btn';
-        a.textContent = `${package.price} $`;
+        a.textContent = `Rs${package.price}`;
+        a.textContent = `Rs${package.price}`;
 
         detailsDiv.appendChild(h3);
         detailsDiv.appendChild(pDays);
