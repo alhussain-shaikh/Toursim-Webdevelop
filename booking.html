@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,80 +19,85 @@
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 
 </head>
-<body onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'>
+
+<body
+    onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'>
     <!--navbar-->
     <nav class="navbar glass" style="height: 70px;">
-        <span><a href="#home" style="display:flex; align-items: center;"><img class="img2" src="./img/LogoWanderlust.png" width="40"
-            style="margin: -25px -10px -25px -20px"><h1 class="logo">&nbsp;WANDERLUST</h1></a></span>
+        <span><a href="#home" style="display:flex; align-items: center;"><img class="img2"
+                    src="./img/LogoWanderlust.png" width="40" style="margin: -25px -10px -25px -20px">
+                <h1 class="logo">&nbsp;WANDERLUST</h1>
+            </a></span>
         <ul class="nav-links">
             <li><a href="index.html" id="pri" class="active cir_border">Home</a></li>
-            <li><a href="tour_details.html"  id="sec" class="cir_border">Tours</a></li>
+            <li><a href="tour_details.html" id="sec" class="cir_border">Tours</a></li>
             <li><a href="booking.html" id="hex" class="cir_border">Booking</a></li>
             <li><a href="index.html#explore" id="tri" class="cir_border">Explore</a></li>
             <li><a href="index.html#about" id="quad" class="cir_border">Packages</a></li>
             <li><a href="Login.html" id="quint" class="cir_border">Login</a></li>
             <li><a href="index.html#contact" id="hex" class="cir_border">Contact</a></li>
-            <li><div>
-                <input type="checkbox" class="checkbox dark" id="checkbox">
-              <label for="checkbox" class="label">
-                <i class="fa fa-moon-o"></i>
-                <i class='fa fa-sun-o'></i>
-                <div class='ball'>
-              </label>
-            </div></li>
+            <li>
+                <div>
+                    <input type="checkbox" class="checkbox dark" id="checkbox">
+                    <label for="checkbox" class="label">
+                        <i class="fa fa-moon-o"></i>
+                        <i class='fa fa-sun-o'></i>
+                        <div class='ball'>
+                    </label>
+                </div>
+            </li>
         </ul>
         <img src="./img/menu-btn.png" alt="" class="menu-btn">
     </nav>
-    <br>
-    <br>
-    <br>
-    <br>
+  
     <section id="login">
         <div class="title">
             <h1 class="font-color"> Booking </h1>
             <div class="line"></div>
         </div>
-       <br>
-       <br>
-       <div class="container">
-            <nav >
+        <br>
+        <br>
+        <div class="container">
+            <nav>
                 <ul class="nav-links">
-                    <li><a href="#" id="pri" class="active cir_border" style="color: black; border-color: darkred;">Tours</a></li>
-                    <li><a href="#"  id="sec" class="cir_border" style="color: black">Hotels</a></li>
+                    <li><a href="#" id="pri" class="active cir_border"
+                            style="color: black; border-color: darkred;">Tours</a></li>
+                    <li><a href="#" id="sec" class="cir_border" style="color: black">Hotels</a></li>
                     <li><a href="#" id="tri" class="cir_border" style="color: black">Flight</a></li>
-                </ul>    
-            
+                </ul>
+
             </nav>
-        
-                <form>
-                    <label for="trip-type">Trip Type:</label>
-                    <input type="radio" id="round-trip" name="trip-type" value="round" checked>
-                    <label for="round-trip">Round Trip</label>
-                    <input type="radio" id="one-way" name="trip-type" value="one-way">
-                    <label for="one-way">One Way</label>
-        
-                    <label for="from">From:</label>
-                    <input type="text" id="from" name="from" required>
-        
-                    <label for="to">To:</label>
-                    <input type="text" id="to" name="to" required>
-        
-                    <label for="depart-date">Depart Date:</label>
-                    <input type="date" id="depart-date" name="depart-date" required>
-        
-                    <label for="return-date">Return Date:</label>
-                    <input type="date" id="return-date" name="return-date" disabled>
-        
-                    <button type="submit">Search</button>
-                </form>
-        
+
+            <form>
+                <label for="trip-type">Trip Type:</label>
+                <input type="radio" id="round-trip" name="trip-type" value="round" checked>
+                <label for="round-trip">Round Trip</label>
+                <input type="radio" id="one-way" name="trip-type" value="one-way">
+                <label for="one-way">One Way</label>
+
+                <label for="from">From:</label>
+                <input type="text" id="from" name="from" required>
+
+                <label for="to">To:</label>
+                <input type="text" id="to" name="to" required>
+
+                <label for="depart-date">Depart Date:</label>
+                <input type="date" id="depart-date" name="depart-date" required>
+
+                <label for="return-date">Return Date:</label>
+                <input type="date" id="return-date" name="return-date" required>
+
+                <button type="submit">Search</button>
+            </form>
+            <br><br><br><br><br><br>
+            <div id="packages"></div>
         </div>
 
-        
 
-    
 
-        
+
+
+
     </section>
     <!-- <section class="footer">
       <span>Created By A9 Group  | &#169 2022 All rights reserved.</span>
@@ -104,8 +110,10 @@
       </div>
   </section> -->
 
-    
+
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="js/script.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+    <script src="./js/booking.js"></script>
 </body>
+
 </html>

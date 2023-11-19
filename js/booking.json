@@ -1,0 +1,95 @@
+{
+    "bookings": [
+        {
+            "bookingData": {
+                "source": "Pune",
+                "destination": "Goa",
+                "packages": [
+                    {
+                        "package_name": "Adventure Escape",
+                        "days": 7,
+                        "activities": [
+                            "Hiking",
+                            "Rafting",
+                            "Sightseeing",
+                            "Camping"
+                        ],
+                        "price": 1200.50,
+                        "image_url": "https://example.com/adventure_escape.jpg"
+                    },
+                    {
+                        "package_name": "Beach Paradise",
+                        "days": 6,
+                        "activities": [
+                            "Snorkeling",
+                            "Beach Picnic",
+                            "Water Sports"
+                        ],
+                        "price": 1500.25,
+                        "image_url": "https://example.com/beach_paradise.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "bookingData": {
+                "source": "Mumbai",
+                "destination": "Kerala",
+                "packages": [
+                    {
+                        "package_name": "Nature Retreat",
+                        "days": 8,
+                        "activities": [
+                            "Jungle Safari",
+                            "Bird Watching",
+                            "Boating"
+                        ],
+                        "price": 1800.75,
+                        "image_url": "https://example.com/nature_retreat.jpg"
+                    },
+                    {
+                        "package_name": "Cultural Experience",
+                        "days": 5,
+                        "activities": [
+                            "Historical Tours",
+                            "Traditional Dance",
+                            "Local Cuisine"
+                        ],
+                        "price": 1350.00,
+                        "image_url": "https://example.com/cultural_experience.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "bookingData": {
+                "source": "Delhi",
+                "destination": "Shimla",
+                "packages": [
+                    {
+                        "package_name": "Snowy Adventure",
+                        "days": 6,
+                        "activities": [
+                            "Skiing",
+                            "Snowboarding",
+                            "Winter Treks"
+                        ],
+                        "price": 1600.80,
+                        "image_url": "https://example.com/snowy_adventure.jpg"
+                    },
+                    {
+                        "package_name": "Scenic Beauty",
+                        "days": 4,
+                        "activities": [
+                            "Mountain Views",
+                            "Nature Walks",
+                            "Photography"
+                        ],
+                        "price": 1200.00,
+                        "image_url": "https://example.com/scenic_beauty.jpg"
+                    }
+                ]
+            }
+        }
+    ]
+}
