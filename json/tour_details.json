@@ -1,0 +1,166 @@
+{
+    "tours": [
+      {
+        "name": "Everest Camp",
+        "tourImage":"",
+        "description":"Everest Base Camp trek is without a doubt, one of the most renowned travel destinations in the world, captivating adventurers and nature enthusiasts alike. Situated in the breathtaking Himalayas, this iconic trek offers an extraordinary opportunity to witness awe-inspiring vistas of snow-capped peaks, traverse ancient trails, and immerse yourself in the rich cultural heritage of the Sherpa community. Embark on a once-in-a-lifetime journey as you trek through picturesque landscapes, passing through charming mountain villages, and reaching the iconic Everest Base Camp itself. This incredible adventure not only presents the opportunity to stand in the shadow of the world's highest peak, Mount Everest, but also to forge unforgettable memories and friendships with fellow trekkers from around the globe. Situated in the breathtaking Himalayas, this iconic trek offers an extraordinary opportunity to witness",
+        "packages": [
+          {
+            "package_name": "Adventure Deluxe",
+            "image_url": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/119BD/production/_125452127_gettyimages-1239978567.jpg",
+            "activities": ["Mountain Climbing", "Campfire", "Hiking", "Photography"],
+            "price": 2500.00,
+            "days": 7
+          },
+          {
+            "package_name": "Nature Explorer",
+            "image_url": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/shikari-devi-nature-explorer.jpg",
+            "activities": ["Wildlife Safari", "Nature Walks", "Bird Watching", "Star Gazing"],
+            "price": 2800.50,
+            "days": 8
+          },
+          {
+            "package_name": "Extreme Summit",
+            "image_url": "https://static.wixstatic.com/media/4d4c8f_b4b89f89ceef4fa8b6a9921c05f0e9ba~mv2.jpg/v1/fill/w_1200,h_900,al_c/4d4c8f_b4b89f89ceef4fa8b6a9921c05f0e9ba~mv2.jpg",
+            "activities": ["Ice Climbing", "Helicopter Ride", "Base Camp Marathon", "Skydiving"],
+            "price": 3200.00,
+            "days": 9
+          },
+          {
+            "package_name": "Cultural Immersion",
+            "image_url": "https://www.worldatlas.com/r/w1200/upload/41/f7/75/folk-music.jpg",
+            "activities": ["Local Village Visits", "Cultural Workshops", "Traditional Music", "Local Cuisine"],
+            "price": 2700.75,
+            "days": 8
+          },
+          {
+            "package_name": "Photographer's Paradise",
+            "image_url": "https://t3.ftcdn.net/jpg/02/88/74/34/360_F_288743496_7peIs10EsEkJyKLCxeRGOhndEsG1Hi0F.jpg",
+            "activities": ["Photography Workshops", "Panoramic Views", "Sunrise/Sunset Sessions", "Astrophotography"],
+            "price": 2900.25,
+            "days": 7
+          },
+          {
+            "package_name": "Family Adventure",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Joshua_Tree_-_Campfire_1.jpg",
+            "activities": ["Family-Friendly Hikes", "Campfire Storytelling", "Nature Exploration", "Adventure Games"],
+            "price": 3100.50,
+            "days": 8
+          }
+        ]
+      },
+      {
+        "name": "Walking Holidays Goa",
+        "tourImage":"",
+        "description":"Explore the captivating charm of Goa with our Walking Holidays tour, a perfect blend of leisure and adventure set against the backdrop of this tropical paradise. Immerse yourself in the vibrant culture and rich heritage as you stroll through the winding streets of picturesque villages, absorbing the lively atmosphere and colorful traditions. Experience the laid-back vibes of pristine beaches, where the golden sands meet the azure waters of the Arabian Sea. Our meticulously crafted Walking Holidays offer a unique perspective on Goa, allowing you to savor local flavors with culinary delights during guided food tours. Engage in rejuvenating yoga sessions on serene beaches, finding tranquility in the rhythmic sound of the waves. Cultural enthusiasts can embark on enlightening tours, discovering ancient temples, churches, and the vibrant markets that narrate the story of Goa's diverse history. Embrace the spirit of Goa with us, where every step unfolds a new facet of this enchanting destination.",
+        "packages": [
+          {
+            "package_name": "Relaxation Retreat",
+            "image_url": "https://im.hunt.in/cg/Goa/Panaji/City-Guide/yoga-classes-panaji.jpg",
+            "activities": ["Beach Strolls", "Local Cuisine Tasting", "Yoga Sessions", "Cultural Tours"],
+            "price": 1200.50,
+            "days": 5
+          },
+          {
+            "package_name": "Adventure Explorer",
+            "image_url": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_307777376_20190822150057_20190822161317.jpg",
+            "activities": ["Water Sports", "Jungle Trekking", "Boat Tours", "Nightlife Experience"],
+            "price": 1500.75,
+            "days": 6
+          },
+          {
+            "package_name": "Luxury Escape",
+            "image_url": "https://i0.wp.com/theluxurytravelexpert.com/wp-content/uploads/2015/12/mandarin-oriental-bodrum-turkey.jpg?ssl=1",
+            "activities": ["Luxury Resort Stay", "Private Beach Cabanas", "Fine Dining", "Spa Retreat"],
+            "price": 2200.00,
+            "days": 7
+          },
+          {
+            "package_name": "Family Fun",
+            "image_url": "https://brilliantio.com/wp-content/uploads/2023/06/Picnic-At-The-Beach-Ideas.png",
+            "activities": ["Family-Friendly Beach Games", "Kids' Workshops", "Beach Picnic", "Cultural Experiences"],
+            "price": 1800.25,
+            "days": 6
+          },
+          {
+            "package_name": "Romantic Getaway",
+            "image_url": "https://muraaddecorations.com/wp-content/uploads/2021/09/4-min21.jpg",
+            "activities": ["Private Sunset Cruise", "Candlelight Dinners", "Beachside Serenade", "Couple's Spa"],
+            "price": 2000.50,
+            "days": 5
+          },
+          {
+            "package_name": "Solo Adventure",
+            "image_url": "https://i.natgeofe.com/n/8f633a47-1da9-4873-b851-0ed1bdd93e9a/hiking-survival-day-hike-alone.jpg?w=374&h=249",
+            "activities": ["Solo Travel Workshops", "Adventure Solo Hikes", "Local Cultural Immersion", "Beach Meditation"],
+            "price": 1300.75,
+            "days": 7
+          },
+          {
+            "package_name": "Wildlife Discovery",
+            "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/5b/1a/69/caption.jpg?w=500&h=400&s=1",
+            "activities": ["Wildlife Sanctuary Visits", "Bird Watching", "Nature Photography", "Guided Nature Walks"],
+            "price": 1900.25,
+            "days": 6
+          }
+        ]
+      },
+      {
+        "name": "Andaman and Nicobar Beaches",
+        "tourImage":"",
+        "description":"Embark on a journey to paradise with our Andaman and Nicobar Beaches tour, a tropical haven where turquoise waters meet pristine shores, and lush greenery embraces crystal-clear beaches. Surrender to the allure of these enchanting islands, where each moment is a canvas painted with the vibrant hues of nature. Picture yourself immersed in the unparalleled beauty of coral reefs, exploring the underwater wonders through scuba diving and snorkeling adventures. The soft, powdery sands of the beaches beckon, offering moments of serenity and relaxation, perfect for those seeking solace amidst the gentle lull of the ocean waves. Our meticulously curated packages blend adventure, luxury, and cultural exploration. From island-hopping escapades to guided treks through lush jungles, every experience is tailored to unveil the unique charm of Andaman and Nicobar. Indulge in the luxury of private villas, relish fine dining with ocean views, and immerse yourself in the cultural tapestry of the islands through local village visits and traditional dance performances.As the sun sets over the horizon, embark on a serene sunset cruise, witnessing the sky ablaze with hues of orange and pink. Andaman and Nicobar Beaches offer a timeless escape, promising an unforgettable sojourn where every moment is a postcard-worthy memory.",
+        "packages": [
+          {
+            "package_name": "Island Paradise",
+            "image_url": "https://img.freepik.com/premium-photo/tropical-island-middle-ocean-tropical-paradise-perfect-destination_751108-2062.jpg",
+            "activities": ["Snorkeling", "Scuba Diving", "Island Hopping", "Sunset Cruise"],
+            "price": 1800.75,
+            "days": 6
+          },
+          {
+            "package_name": "Luxury Escape",
+            "image_url": "https://d2qchlvzag6lvv.cloudfront.net/thumbnails/locality/261198.jpg",
+            "activities": ["Private Villas", "Fine Dining", "Spa Retreat", "Helicopter Tour"],
+            "price": 3500.00,
+            "days": 8
+          },
+          {
+            "package_name": "Adventure Explorer",
+            "image_url": "https://cdn-7.nikon-cdn.com/Images/Learn-Explore/Photography-Techniques/2011/David-Doubilet-Underwater-Photography/Media/David_Doubilet_UW_12_Barracuda.jpg",
+            "activities": ["Kayaking", "Coral Reef Exploration", "Jungle Treks", "Underwater Photography"],
+            "price": 2400.50,
+            "days": 7
+          },
+          {
+            "package_name": "Cultural Immersion",
+            "image_url": "https://global-uploads.webflow.com/5ca5fe687e34be0992df1fbe/61d47df98fa19c206d5942e3_kayak-2021-08-29-08-36-25-utc-min.jpg",
+            "activities": ["Local Village Visits", "Traditional Dance Performances", "Local Cuisine Tasting", "Handicraft Workshops"],
+            "price": 2100.25,
+            "days": 6
+          },
+          {
+            "package_name": "Family Fun",
+            "image_url": "https://images.squarespace-cdn.com/content/v1/61140bee9ca8e84a2f49c351/d9c69b85-5706-40c2-b186-9decbd8470a6/20210906_063353.jpg",
+            "activities": ["Family-Friendly Beach Games", "Guided Family Snorkeling", "Beach Picnic", "Cultural Experiences"],
+            "price": 2000.50,
+            "days": 5
+          },
+          {
+            "package_name": "Romantic Getaway",
+            "image_url": "https://www.bucuti.com/storage/app/media/uploaded-files/RomanticSunsetdinner.jpg",
+            "activities": ["Private Beach Dinners", "Sunset Sailing", "Candlelight Strolls", "Couple's Spa"],
+            "price": 2800.75,
+            "days": 7
+          },
+          {
+            "package_name": "Solo Adventure",
+            "image_url": "https://miro.medium.com/v2/resize:fit:1400/1*ZF8Bww-SDsoXLevDnvBfGQ.jpeg",
+            "activities": ["Solo Travel Workshops", "Guided Solo Hikes", "Local Cultural Immersion", "Beach Meditation"],
+            "price": 1700.25,
+            "days": 6
+          }
+        ]
+      }
+    ]
+  }
+  
