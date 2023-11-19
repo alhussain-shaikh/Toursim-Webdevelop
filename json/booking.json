@@ -1,0 +1,265 @@
+{
+    "bookings": [
+        {
+            "bookingData": {
+                "source": "Pune",
+                "destination": "Goa",
+                "packages": [
+                    {
+                        "package_name": "Adventure Escape",
+                        "days": 7,
+                        "activities": [
+                            "Hiking",
+                            "Rafting",
+                            "Sightseeing",
+                            "Camping"
+                        ],
+                        "price": 1200.50,
+                        "image_url": "https://imgeng.jagran.com/images/2023/jul/goa1689842917048.jpg"
+                    },
+                    {
+                        "package_name": "Beach Paradise",
+                        "days": 6,
+                        "activities": [
+                            "Snorkeling",
+                            "Beach Picnic",
+                            "Water Sports"
+                        ],
+                        "price": 1500.25,
+                        "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fc/f0/goa.jpg?w=700&h=500&s=1"
+                    },
+                    {
+                        "package_name": "Mountain Retreat",
+                        "days": 5,
+                        "activities": [
+                            "Trekking",
+                            "Mountain Biking",
+                            "Nature Exploration"
+                        ],
+                        "price": 1100.75,
+                        "image_url": "https://www.tourmyindia.com/socialimg/adventure-tourism-goa.jpg"
+                    },
+                    {
+                        "package_name": "Island Getaway",
+                        "days": 7,
+                        "activities": [
+                            "Scuba Diving",
+                            "Island Hopping",
+                            "Relaxing on the Beach"
+                        ],
+                        "price": 1700.00,
+                        "image_url": "https://resize.indiatvnews.com/en/resize/newbucket/400_-/2018/05/pjimage-4-1527076283.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "bookingData": {
+                "source": "Mumbai",
+                "destination": "Kerala",
+                "packages": [
+                    {
+                        "package_name": "Nature Retreat",
+                        "days": 8,
+                        "activities": [
+                            "Jungle Safari",
+                            "Bird Watching",
+                            "Boating"
+                        ],
+                        "price": 1800.75,
+                        "image_url": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/01/14/14/kerala.jpg"
+                    },
+                    {
+                        "package_name": "Cultural Experience",
+                        "days": 5,
+                        "activities": [
+                            "Historical Tours",
+                            "Traditional Dance",
+                            "Local Cuisine"
+                        ],
+                        "price": 1350.00,
+                        "image_url": "https://imgcdn.flamingotravels.co.in/Images/Country/Kerala%20State.JPG"
+                    },
+                    {
+                        "package_name": "Wildlife Adventure",
+                        "days": 6,
+                        "activities": [
+                            "Wildlife Safari",
+                            "Nature Walks",
+                            "Photography"
+                        ],
+                        "price": 1600.50,
+                        "image_url": "https://www.tourmyindia.com/states/kerala/images/adventure-kerala3.jpg"
+                    },
+                    {
+                        "package_name": "Ayurveda Wellness",
+                        "days": 7,
+                        "activities": [
+                            "Ayurvedic Spa",
+                            "Yoga Retreat",
+                            "Herbal Medicine Workshops"
+                        ],
+                        "price": 2000.25,
+                        "image_url": "https://www.holidify.com/images/cmsuploads/compressed/Kathakalidancer_20170810104952.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "bookingData": {
+                "source": "Delhi",
+                "destination": "Shimla",
+                "packages": [
+                    {
+                        "package_name": "Snowy Adventure",
+                        "days": 6,
+                        "activities": [
+                            "Skiing",
+                            "Snowboarding",
+                            "Winter Treks"
+                        ],
+                        "price": 1600.80,
+                        "image_url": "https://static.toiimg.com/photo/msid-102383896,width-96,height-65.cms"
+                    },
+                    {
+                        "package_name": "Scenic Beauty",
+                        "days": 4,
+                        "activities": [
+                            "Mountain Views",
+                            "Nature Walks",
+                            "Photography"
+                        ],
+                        "price": 1200.00,
+                        "image_url": "https://media.easemytrip.com/media/Blog/India/637915846722669356/637915846722669356B5c7WW.jpg"
+                    },
+                    {
+                        "package_name": "Adventure in the Hills",
+                        "days": 5,
+                        "activities": [
+                            "Rock Climbing",
+                            "Zip Lining",
+                            "Camping"
+                        ],
+                        "price": 1450.50,
+                        "image_url": "https://duniyatrip.com/wp-content/uploads/2023/07/fabrizio-conti-EJQlF0GIvq8-unsplash-1024x683.jpg"
+                    },
+                    {
+                        "package_name": "Nature Photography",
+                        "days": 3,
+                        "activities": [
+                            "Photography Workshops",
+                            "Sunrise Tours",
+                            "Forest Exploration"
+                        ],
+                        "price": 1000.00,
+                        "image_url": "https://media.istockphoto.com/id/1182935983/photo/beautiful-shimla-himachal-pradesh.webp?b=1&s=170667a&w=0&k=20&c=hiLlGX1tGmqUHM3ibvAslX1B8HVaI1cezm6J8OLqPPc="
+                    }
+                ]
+            }
+        },
+        {
+            "bookingData": {
+                "source": "Mumbai",
+                "destination": "New York",
+                "packages": [
+                    {
+                        "package_name": "City Explorer",
+                        "days": 5,
+                        "activities": [
+                            "Sightseeing",
+                            "Shopping",
+                            "Cultural Tours"
+                        ],
+                        "price": 2000.00,
+                        "image_url": "https://media.istockphoto.com/id/1451754987/photo/new-york-city-skyline-at-sunset-with-brooklyn-bridge-and-lower-manhattan.webp?b=1&s=170667a&w=0&k=20&c=agn9dQq6tmElh4PL8dShiOOwyByL3NItbpeo2Lldktc="
+                    },
+                    {
+                        "package_name": "Luxury Getaway",
+                        "days": 7,
+                        "activities": [
+                            "Fine Dining",
+                            "Spa Retreat",
+                            "City Views"
+                        ],
+                        "price": 2500.50,
+                        "image_url": "https://media.istockphoto.com/id/1454217037/photo/statue-of-liberty-and-new-york-city-skyline-with-manhattan-financial-district-world-trade.webp?b=1&s=170667a&w=0&k=20&c=ILAXN43qdlPTT8ljbbT7Hwp95AQJxKTNygWhsQ3qzO4="
+                    },
+                    {
+                        "package_name": "Nightlife Experience",
+                        "days": 4,
+                        "activities": [
+                            "Club Hopping",
+                            "Broadway Shows",
+                            "Nighttime City Tours"
+                        ],
+                        "price": 1800.75,
+                        "image_url": "https://images.unsplash.com/photo-1602940659805-770d1b3b9911?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGltZXMlMjBzcXVhcmV8ZW58MHx8MHx8fDA%3D"
+                    },
+                    {
+                        "package_name": "Central Park Retreat",
+                        "days": 6,
+                        "activities": [
+                            "Picnics",
+                            "Boat Rides",
+                            "Central Park Zoo Visit"
+                        ],
+                        "price": 2200.25,
+                        "image_url": "https://images.unsplash.com/photo-1631729779674-1f369e1116b4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2VudHJhbCUyMHBhcmt8ZW58MHx8MHx8fDA%3D"
+                    }
+                ]
+            }
+        },
+        {
+            "bookingData": {
+                "source": "Delhi",
+                "destination": "Dubai",
+                "packages": [
+                    {
+                        "package_name": "Desert Adventure",
+                        "days": 5,
+                        "activities": [
+                            "Dune Bashing",
+                            "Camel Riding",
+                            "Belly Dancing"
+                        ],
+                        "price": 1800.00,
+                        "image_url": "https://images.unsplash.com/photo-1504326787394-e6d75cae8027?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGRlc2VydCUyMHNhZmFyaSUyMGR1YmFpfGVufDB8fDB8fHww"
+                    },
+                    {
+                        "package_name": "Luxury Cruise",
+                        "days": 4,
+                        "activities": [
+                            "Yacht Party",
+                            "Island Excursions",
+                            "Gourmet Dining"
+                        ],
+                        "price": 2200.75,
+                        "image_url": "https://images.unsplash.com/photo-1554254648-2d58a1bc3fd5?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRob3clMjBjcnVpc2V8ZW58MHx8MHx8fDA%3D"
+                    },
+                    {
+                        "package_name": "Skyline Views",
+                        "days": 6,
+                        "activities": [
+                            "Observation Deck",
+                            "City Tour",
+                            "Shopping in Souks"
+                        ],
+                        "price": 2000.50,
+                        "image_url": "https://images.unsplash.com/photo-1546412414-e1885259563a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZHViYWl8ZW58MHx8MHx8fDA%3D"
+                    },
+                    {
+                        "package_name": "Golden Desert Experience",
+                        "days": 5,
+                        "activities": [
+                            "Gold Souk Visit",
+                            "Desert Safari",
+                            "Traditional Arabian Nights"
+                        ],
+                        "price": 2400.00,
+                        "image_url": "https://images.unsplash.com/flagged/photo-1559717201-fbb671ff56b7?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGR1YmFpfGVufDB8fDB8fHww"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="img/LogoWanderlust.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/LogoWanderlust.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/LogoWanderlust.png">
+    <link rel="stylesheet" href="css/tour_details.css">
+    <link rel="stylesheet" href="css/booking.css">
     <link rel="manifest" href="/site.webmanifest">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
 
@@ -18,94 +21,184 @@
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 
 </head>
-<body onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'>
+
+<body
+    onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'>
     <!--navbar-->
     <nav class="navbar glass" style="height: 70px;">
-        <span><a href="#home" style="display:flex; align-items: center;"><img class="img2" src="./img/LogoWanderlust.png" width="40"
-            style="margin: -25px -10px -25px -20px"><h1 class="logo">&nbsp;WANDERLUST</h1></a></span>
+        <span><a href="#home" style="display:flex; align-items: center;"><img class="img2"
+                    src="./img/LogoWanderlust.png" width="40" style="margin: -25px -10px -25px -20px">
+                <h1 class="logo">&nbsp;WANDERLUST</h1>
+            </a></span>
         <ul class="nav-links">
             <li><a href="index.html" id="pri" class="active cir_border">Home</a></li>
-            <li><a href="tour_details.html"  id="sec" class="cir_border">Tours</a></li>
+            <li><a href="tour_details.html" id="sec" class="cir_border">Tours</a></li>
             <li><a href="booking.html" id="hex" class="cir_border">Booking</a></li>
             <li><a href="index.html#explore" id="tri" class="cir_border">Explore</a></li>
             <li><a href="index.html#about" id="quad" class="cir_border">Packages</a></li>
             <li><a href="Login.html" id="quint" class="cir_border">Login</a></li>
             <li><a href="index.html#contact" id="hex" class="cir_border">Contact</a></li>
-            <li><div>
-                <input type="checkbox" class="checkbox dark" id="checkbox">
-              <label for="checkbox" class="label">
-                <i class="fa fa-moon-o"></i>
-                <i class='fa fa-sun-o'></i>
-                <div class='ball'>
-              </label>
-            </div></li>
+            <li>
+                <div>
+                    <input type="checkbox" class="checkbox dark" id="checkbox">
+                    <label for="checkbox" class="label">
+                        <i class="fa fa-moon-o"></i>
+                        <i class='fa fa-sun-o'></i>
+                        <div class='ball'>
+                    </label>
+                </div>
+            </li>
         </ul>
         <img src="./img/menu-btn.png" alt="" class="menu-btn">
     </nav>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <section id="login">
         <div class="title">
             <h1 class="font-color"> Booking </h1>
             <div class="line"></div>
         </div>
-       <br>
-       <br>
-       <div class="container">
-            <nav >
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <div class="container">
+            <!-- <nav>
                 <ul class="nav-links">
-                    <li><a href="#" id="pri" class="active cir_border" style="color: black; border-color: darkred;">Tours</a></li>
-                    <li><a href="#"  id="sec" class="cir_border" style="color: black">Hotels</a></li>
+                    <li><a href="#" id="pri" class="active cir_border"
+                            style="color: black; border-color: darkred;">Tours</a></li>
+                    <li><a href="#" id="sec" class="cir_border" style="color: black">Hotels</a></li>
                     <li><a href="#" id="tri" class="cir_border" style="color: black">Flight</a></li>
-                </ul>    
-            
-            </nav>
-        
-                <form>
-                    <label for="trip-type">Trip Type:</label>
-                    <input type="radio" id="round-trip" name="trip-type" value="round" checked>
-                    <label for="round-trip">Round Trip</label>
-                    <input type="radio" id="one-way" name="trip-type" value="one-way">
-                    <label for="one-way">One Way</label>
-        
-                    <label for="from">From:</label>
-                    <input type="text" id="from" name="from" required>
-        
-                    <label for="to">To:</label>
-                    <input type="text" id="to" name="to" required>
-        
-                    <label for="depart-date">Depart Date:</label>
-                    <input type="date" id="depart-date" name="depart-date" required>
-        
-                    <label for="return-date">Return Date:</label>
-                    <input type="date" id="return-date" name="return-date" disabled>
-        
-                    <button type="submit">Search</button>
-                </form>
-        
+                </ul>
+
+            </nav> -->
+            <h3 class="tour-title">TOUR PACKAGES BOOKING</h3>
+            <form>
+                <label for="from" class="label-form" style="color: black; font-weight: bold;">From:</label>
+                <input type="text" id="from" name="from" required>
+
+                <label for="to" class="label-form" style="color: black; font-weight: bold;">To:</label>
+                <input type="text" id="to" name="to" required>
+
+                <label for="depart-date" class="label-form" style="color: black; font-weight: bold;">Depart
+                    Date:</label>
+                <input type="date" id="depart-date" name="depart-date" required>
+
+                <label for="return-date" class="label-form" style="color: black; font-weight: bold;">Return
+                    Date:</label>
+                <input type="date" id="return-date" name="return-date" required>
+
+                <button type="submit">Search</button>
+            </form>
+            <br><br>
+            <div class="packages-container" style="display: none;"></div>
         </div>
 
-        
 
-    
 
-        
+
+
+
     </section>
-    <!-- <section class="footer">
-      <span>Created By A9 Group  | &#169 2022 All rights reserved.</span>
-      <div class="social">
-          <li>
-              <a href="https://alhussain-shaikh.github.io/AlhussainPortfolio.github.io/" target="_blank" rel="noreferrer"><i class="fa fa-globe"></i></a>
-              <a href="https://github.com/alhussain-shaikh" target="_blank" rel="noreferrer"><i class="fa fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/al-hussain-shaikh-033729231/" target="_blank" rel="noreferrer"><i class="fa fa-linkedin-square"></i></a>
-          </li>
-      </div>
-  </section> -->
+    <section class="footer">
+        <span>Created By A9 Group | &#169 2023 All rights reserved.</span>
+        <div class="social">
+            <li>
+                <a href="https://alhussain-shaikh.github.io/AlhussainPortfolio.github.io/" target="_blank"
+                    rel="noreferrer"><i class="fa fa-globe"></i></a>
+                <a href="https://github.com/alhussain-shaikh" target="_blank" rel="noreferrer"><i
+                        class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/al-hussain-shaikh-033729231/" target="_blank" rel="noreferrer"><i
+                        class="fa fa-linkedin-square"></i></a>
+            </li>
+        </div>
+    </section>
 
-    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const urlSearchParams = new URLSearchParams(window.location.search);
+            const params = Object.fromEntries(urlSearchParams.entries());
+
+            const source = params.from; // Using "from" instead of "source"
+            const destination = params.to; // Using "to" instead of "destination"
+
+            if (source && destination) { // Check if source and destination are defined
+                fetch('json/booking.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        const matchingBooking = findMatchingBooking(data.bookings, source, destination);
+
+                        if (matchingBooking) {
+                            renderPackages(matchingBooking.bookingData);
+                            const container = document.querySelector('.packages-container');
+                            // Set the display property to "block"
+                            container.style.display = 'flex';
+
+
+
+                        } else {
+                            console.log("No matching booking found.");
+                        }
+                    })
+                    .catch(error => console.error('Error fetching data:', error));
+            } else {
+                console.log("Source and destination are not defined.");
+            }
+        });
+
+        function findMatchingBooking(bookings, source, destination) {
+            return bookings.find(booking =>
+                booking.bookingData.source.toLowerCase() === source.toLowerCase() &&
+                booking.bookingData.destination.toLowerCase() === destination.toLowerCase()
+            );
+        }
+
+        function renderPackages(tour) {
+            const container = document.querySelector('.packages-container');
+            container.setAttribute
+
+            tour.packages.forEach(package => {
+                const packageDiv = document.createElement('div');
+                packageDiv.className = 'package-card';
+
+                const img = document.createElement('img');
+                img.src = package.image_url;
+                img.alt = "photo";
+
+                const detailsDiv = document.createElement('div');
+                detailsDiv.className = 'package-details';
+
+                const h3 = document.createElement('h3');
+                h3.textContent = package.package_name;
+
+                const pDays = document.createElement('p');
+                pDays.textContent = `${package.days} Days`;
+
+                const ul = document.createElement('ul');
+                package.activities.forEach(activity => {
+                    const li = document.createElement('li');
+                    li.textContent = activity;
+                    ul.appendChild(li);
+                });
+
+                const a = document.createElement('a');
+                a.href = `bookingComponent.html?data=${package.price}`;
+                a.className = 'book-btn';
+                a.textContent = `${package.price} Rs`;
+
+                detailsDiv.appendChild(h3);
+                detailsDiv.appendChild(pDays);
+                detailsDiv.appendChild(ul);
+                detailsDiv.appendChild(a);
+
+                packageDiv.appendChild(img);
+                packageDiv.appendChild(detailsDiv);
+
+                container.appendChild(packageDiv);
+            });
+        }
+    </script>
+
+
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="js/script.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+    <script src="./js/booking.js"></script>
 </body>
+
 </html>

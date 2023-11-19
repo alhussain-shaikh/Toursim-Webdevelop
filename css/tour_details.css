@@ -67,12 +67,14 @@
 
 .package-details {
   text-align: center;
+  font-weight: 500;
 }
 
 .package-card img {
   max-width: 100%;
   height: 250px;
   border-radius: 4px;
+  /* object-fit: contain; */
 }
 
 .package-card h3 {
@@ -82,18 +84,26 @@
 }
 
 .package-card p {
-  color: #555;
+  color: #363636;
   /* Gray text for package details */
   margin-top: 5px;
+
+
 }
+
 
 .package-card .package-details ul {
   margin-top: 10px;
   list-style-type: none;
+  font-weight: bold;
+  color: #272727;
+
+
 }
 
 .package-card .package-details li {
   color: #555;
+  font-weight: 500;
   /* Gray text for activity list */
   list-style: none;
   padding-left: 20px;
