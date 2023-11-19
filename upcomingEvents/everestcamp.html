@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Package Renderer</title>
+  <link rel="stylesheet" href="../css/tour_details.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+  
+  <nav class="navbar glass" style="height: 70px;">
+    <span><a href="#home" style="display:flex; align-items: center;"><img class="img2" src="./img/LogoWanderlust.png"
+          width="40" style="margin: -25px -10px -25px -20px">
+        <h1 class="logo">&nbsp;WANDERLUST</h1>
+      </a></span>
+    <ul class="nav-links">
+      <li><a href="../index.html" id="pri" class="active cir_border">Home</a></li>
+      <li><a href="../index.html#events" id="sec" class="cir_border">Tours</a></li>
+      <li><a href="../booking.html" id="hex" class="cir_border">Booking</a></li>
+      <li><a href="../index.html#explore" id="tri" class="cir_border">Explore</a></li>
+      <li><a href="../index.html#about" id="quad" class="cir_border">Packages</a></li>
+      <li><a href="../Login.html" id="quint" class="cir_border">Login</a></li>
+      <li><a href="../index.html#contact" id="hex" class="cir_border">Contact</a></li>
+      <li>
+        <div>
+          <input type="checkbox" class="checkbox dark" id="checkbox">
+          <label for="checkbox" class="label">
+            <i class="fa fa-moon-o"></i>
+            <i class='fa fa-sun-o'></i>
+            <div class='ball'>
+          </label>
+        </div>
+      </li>
+    </ul>
+    <img src="./img/menu-btn.png" alt="" class="menu-btn">
+  </nav>
+   <main>
+    <div class="tour-details-container">
+      <div class="tour-image">
+        <img src="../img/img1.jfif" alt="Everest Camp Trek">
+      </div>
+      <div class="tour-info">
+        <h1 class="dark">Everest Camp Trek</h1><br>
+        <p class="font-color"> Everest Base Camp trek is without a doubt, one of the most renowned travel destinations in the world, captivating adventurers and nature enthusiasts alike. Situated in the breathtaking Himalayas, this iconic trek offers an extraordinary opportunity to witness awe-inspiring vistas of snow-capped peaks, traverse ancient trails, and immerse yourself in the rich cultural heritage of the Sherpa community. </p><br>
+        <p class="font-color" style="text-indent: 80px;"> Embark on a once-in-a-lifetime journey as you trek through picturesque landscapes, passing through charming mountain villages, and reaching the iconic Everest Base Camp itself. This incredible adventure not only presents the opportunity to stand in the shadow of the world's highest peak, Mount Everest, but also to forge unforgettable memories and friendships with fellow trekkers from around the globe. Situated in the breathtaking Himalayas, this iconic trek offers an extraordinary opportunity to witness </p> <br>
+        <a href="https://mercury-uat.phonepe.com/transact/simulator?token=BwDguDaJUIWnnpQ00uXbTwK8B0GpEmtwj9Q1DejIPGi" class="book-btn">Book Now</a>
+        <!-- <a href="Payment.html" class="book-btn">Book Now</a> -->
+      </div>
+    </div>
+    <br>
+    <div class="title">
+      <h1 class="dark">Exciting Packages</h1>
+      <div class="line"></div> <br>
+    </div>
+     <div class="packages-container"></div>
+   </main>
+
+   <br><br>
+   <footer>
+     <section class="footer">
+       <span>Created By A9 Group | &#169 2022 All rights reserved.</span>
+       <div class="social">
+         <li>
+           <a href="https://alhussain-shaikh.github.io/AlhussainPortfolio.github.io/" target="_blank" rel="noreferrer"><i
+               class="fa fa-globe"></i></a>
+           <a href="https://github.com/alhussain-shaikh" target="_blank" rel="noreferrer"><i
+               class="fa fa-github"></i></a>
+           <a href="https://www.linkedin.com/in/al-hussain-shaikh-033729231/" target="_blank" rel="noreferrer"><i
+               class="fa fa-linkedin-square"></i></a>
+         </li>
+       </div>
+     </section>
+   </footer>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    fetch('../json/tour_details.json')
+      .then(response => response.json())
+      .then(data => {
+        console.log("data is-------------> ",data.tours);
+        renderPackages(data.tours[0])})
+      .catch(error => console.error('Error fetching data:', error));
+  });
+  
+  function renderPackages(tour) {
+      const container = document.querySelector('.packages-container');
+      tour.packages.forEach(package => {
+        console.log("each tour is : ",package);
+        const packageDiv = document.createElement('div');
+        packageDiv.className = 'package-card';
+
+        const img = document.createElement('img');
+        img.src = package.image_url;
+        img.alt = "photo";
+
+        const detailsDiv = document.createElement('div');
+        detailsDiv.className = 'package-details';
+
+        const h3 = document.createElement('h3');
+        h3.textContent = package.package_name;
+
+        const pDays = document.createElement('p');
+        pDays.textContent = `${package.days} Days`;
+
+        const ul = document.createElement('ul');
+        package.activities.forEach(activity => {
+          const li = document.createElement('li');
+          li.textContent = activity;
+          ul.appendChild(li);
+        });
+
+        const a = document.createElement('a');
+        a.href = `bookingComponent.html?data=${package.price}`;
+        a.className = 'book-btn';
+        a.textContent = `${package.price} $`;
+
+        detailsDiv.appendChild(h3);
+        detailsDiv.appendChild(pDays);
+        detailsDiv.appendChild(ul);
+        detailsDiv.appendChild(a);
+
+        packageDiv.appendChild(img);
+        packageDiv.appendChild(detailsDiv);
+
+        container.appendChild(packageDiv);
+      });
+    }
+  </script>
+   <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click', () => {
+      navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

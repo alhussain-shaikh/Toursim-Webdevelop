@@ -349,8 +349,8 @@ body.dark{
 .footer {
   width: 100%;
   min-height: 100px;
-  padding: 20px 80px;
-  margin: 0;
+  padding: 20px 80px ;
+  margin: 0px;
   background: #222;
   text-align: center;
 }

@@ -48,7 +48,7 @@
   white-space: nowrap;
   /* Keep the cards in a single line */
   padding: 10px;
-  background-color: #f8f8f8;
+  background-color: #000;
   /* Light gray background */
 }
 
@@ -56,6 +56,7 @@
   flex: 0 0 300px;
   /* Set a fixed width for each card */
   margin-right: 20px;
+  width: 300px;
   /* Add some margin between cards */
   background-color: #fff;
   /* White background for cards */
