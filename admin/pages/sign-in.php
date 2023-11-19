@@ -4,7 +4,7 @@ session_start();
 $email = $_POST['email'];
 $password = $_POST['password'];
 
-$conn = new mysqli('localhost:3307', 'root', '', 'wanderlust');
+$conn = new mysqli('localhost:3306', 'root', '040703', 'wonderlust');
 if ($conn->connect_error) {
     die("Connection Failed: " . $conn->connect_error);
 }
