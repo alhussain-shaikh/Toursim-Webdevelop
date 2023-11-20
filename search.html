@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking Form</title>
+    <style>
+        /* Basic styling for the form */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Flight Booking</h1>
+        <form>
+            <label for="journey-type">Journey Type:</label>
+            <select id="journey-type">
+                <option value="one-way">One Way</option>
+                <option value="round-trip">Round Trip</option>
+                <option value="multi-city">Multi City</option>
+            </select>
+            <label for="departure-city">Departure City:</label>
+            <input type="text" id="departure-city" placeholder="Enter departure city">
+            <label for="destination-city">Destination City:</label>
+            <input type="text" id="destination-city" placeholder="Enter destination city">
+            <label for="departure-date">Departure Date:</label>
+            <input type="date" id="departure-date">
+            <label for="return-date">Return Date:</label>
+            <input type="date" id="return-date">
+            <label for="passengers">Passengers & Class:</label>
+            <select id="passengers">
+                <option value="1-economy">1 Traveller Economy</option>
+                <option value="1-premium">1 Traveller Premium Economy</option>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</body>
+</html>
